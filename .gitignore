@@ -1,0 +1,13 @@
+# Squad: ignore all Squad AI-team files (local, not part of the template)
+.squad/
+.squad-workstream
+.github/agents/squad.agent.md
+.github/workflows/squad-*.yml
+.github/workflows/sync-squad-labels.yml
+
+# Local Copilot tooling config (not part of the template)
+.copilot/
+
+# Python bytecode
+__pycache__/
+*.pyc
